@@ -1,0 +1,423 @@
+<!--
+  ======================================================================
+  INSTITUCIÓN: NÓRDICA Studio Diseño que transforma espacios
+  ----------------------------------------------------------------------
+  * Estudiante: Mendiola Romaníz Nathan Jared, García Aredondo Madelyne Dilean
+  * Grupo: 5A PRO VESP  
+  * Actividad: Portal Institucional (Con barra superior, collage y formulario)
+  ====================================================================== -->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NÓRDICA Studio | Arquitectura e Interiorismo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- SECCIÓN DE COMUNICACIÓN -->
+    <div class="top-bar" id="inicio">
+        <div class="top-bar-container">
+            <div class="top-contacts">
+                <span class="top-item">☎️ 785 xxx xxxx</span>
+                <span class="top-item whatsapp">✉️ Mandanos un mensaje por <strong>WhatsApp</strong></span>
+            </div>
+        </div>
+    </div>
+
+    <!-- PÁGINA WEB PRINCIPAL -->
+    <header class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <a href="#inicio">
+                    <img src="img/log.jpg" alt="NÓRDICA Studio" class="brand-logo-img">
+                </a>
+            </div>
+            <nav class="nav-links">
+                <a href="#inicio">Inicio</a>
+                <a href="#oferta">Servicios</a>
+                <a href="login.html" class="btn-nav-login">Arquitecto</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- SECCIÓN DE DOS COLUMNAS CON COLLAGE DE IMÁGENES -->
+    <section class="hero-section">
+        <div class="hero-container">
+            
+            <!-- Columna Izquierda: Textos, Botón y Beneficios -->
+            <div class="hero-text-side">
+                <span class="hero-tag">DISEÑO · ARQUITECTURA · INTERIORISMO</span>
+                <h1>Diseñamos espacios que inspiran nuevas formas de vivir</h1>
+                <p>Un estudio creativo especializado en arquitectura contemporánea e interiorismo funcional. Creamos proyectos equilibrados, elegantes y pensados para las personas.</p>
+                <!--Etiqueta <blockquote> para Frase destacada personalizada sobre el diseño de los espacios-->
+                <blockquote class="studio-quote">
+                    “Un espacio bien diseñado no solo se ve bien: también mejora la manera en que lo vivimos.”
+                    <span>— Filosofía de NÓRDICA Studio</span>
+                </blockquote>
+                <p class="definition-note"><dfn>Interiorismo</dfn> es la disciplina que planifica y transforma los espacios interiores para hacerlos funcionales, armónicos y acogedores.</p><!--Etiqueta <dfn> para definir el concepto de Interiorismo-->
+                
+                <div class="hero-cta-box">
+                    <a href="login.html" class="btn-orange">Agenda una consulta →</a>
+                    <div class="hero-benefits">
+                        <span>✓ Diseño personalizado</span>
+                        <span>✓ Materiales de calidad</span>
+                        <span>✓ Atención de principio a fin</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Columna Derecha: Collage de Imágenes -->
+            <div class="hero-image-side">
+                <div class="image-collage">
+                    <div class="collage-main">
+                        <figure class="content-figure"><img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=600&q=80" alt="Interior contemporáneo"><figcaption>Interior contemporáneo</figcaption></figure>
+                    </div><!--Etiqueta de <figcaption> para texto abajo de las imagenes-->
+                    <div class="collage-sub">
+                        <figure class="content-figure"><img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=300&q=80" alt="Laboratorista"><figcaption>Laboratorista</figcaption></figure>
+                        <figure class="content-figure"><img src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=300&q=80" alt="Arquitectura residencial"><figcaption>Arquitectura residencial</figcaption></figure>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- SECCIÓN DE OFERTA EDUCATIVA CON IMÁGENES ALUSIVAS -->
+    <section id="oferta" class="careers-section">
+        <div class="section-container">
+            <div class="section-header">
+                <h2>Servicios de diseño</h2>
+                <p>Soluciones integrales para transformar cada espacio</p>
+            </div>
+
+            <div class="careers-grid">
+                
+                <!-- Carrera 1: Recursos Humanos -->
+                <div class="career-card">
+                    <div class="career-img-container">
+                        <figure class="content-figure"><img src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=500&q=80" alt="Recursos Humanos"><figcaption>Recursos Humanos</figcaption></figure>
+                    </div>
+                    <div class="career-content">
+                        <h3>Diseño de interiores</h3>
+                        <p>Creamos ambientes <em>funcionales, cálidos y coherentes</em> con tu estilo.</p>
+                    </div>
+                </div>
+
+                <!-- Carrera 2: Arquitectura residencial -->
+                <div class="career-card">
+                    <div class="career-img-container">
+                        <figure class="content-figure"><img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=500&q=80" alt="Arquitectura residencial"><figcaption>Arquitectura residencial</figcaption></figure>
+                    </div>
+                    <div class="career-content">
+                        <h3>Arquitectura residencial</h3>
+                        <p>Diseñamos hogares contemporáneos que combinan <em>estética, comodidad y eficiencia</em>.</p><!--etiqueta <em> para resaltar las palabras--> 
+                    </div>
+                </div>
+
+                <!-- Carrera 3: Diseño comercial -->
+                <div class="career-card">
+                    <div class="career-img-container">
+                        <figure class="content-figure"><img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=500&q=80" alt="Diseño comercial"><figcaption>Diseño comercial</figcaption></figure>
+                    </div>
+                    <div class="career-content">
+                        <h3>Diseño comercial</h3>
+                        <p>Desarrollamos espacios comerciales con <em>
+                        identidad visual </em>y <em>recorridos intuitivos</em>.</p>
+                    </div>
+                </div>
+
+                <!-- Carrera 4: Remodelación y renovación -->
+                <div class="career-card">
+                    <div class="career-img-container">
+                        <figure class="content-figure"><img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=500&q=80" alt="Remodelación y renovación"><figcaption>Remodelación y renovación</figcaption></figure>
+                    </div>
+                    <div class="career-content">
+                        <h3>Remodelación y renovación</h3>
+                        <p><em>Renovamos</em> espacios existentes para <em>aprovechar mejor</em> cada metro cuadrado.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN DE IDEAS CONVERTIDAS CON RECORRIDO INTERACTIVO (JS) -->
+    <section class="teachers-section">
+        <div class="teachers-container">
+            
+            <div class="teachers-header">
+                <div>
+                    <span class="teachers-tag">¿QUIÉN ENSEÑA EN EL NÓRDICA STUDIO?</span>
+                    <h2>Ideas convertidas en espacios</h2>
+                    <p>Una selección de conceptos y proyectos que reflejan nuestra visión de diseño, detalle y funcionalidad.</p>
+                </div>
+                <!-- Botones funcionales con IDs -->
+                <div class="teachers-nav-buttons">
+                    <button id="btn-prev" class="nav-btn">‹</button>
+                    <button id="btn-next" class="nav-btn">›</button>
+                </div>
+            </div>
+
+            <!-- Contenedor de las tarjetas de proyectos (controlado por JS) -->
+            <div class="teachers-grid" id="teachers-track">
+                
+                <div class="teacher-card">
+                    <figure class="content-figure"><img src="img/sala.jpg" alt="Proyecto de arquitectura"><figcaption>Sala de estar contemporánea</figcaption></figure>
+                    <div class="teacher-info">
+                        <p>Espacios acogedores que combinan iluminación natural, tonos neutros y mobiliario moderno.</p>
+                    </div>
+                </div>
+
+                <div class="teacher-card">
+                    <figure class="content-figure"><img src="img/cocina.jpg" alt="Proyecto de interiorismo"><figcaption>Cocina funcional</figcaption></figure>
+                    <div class="teacher-info">
+                        <p>Diseños prácticos que aprovechan cada rincón sin perder elegancia y armonía.</p>
+                    </div>
+                </div>
+
+                <div class="teacher-card">
+                    <figure class="content-figure"><img src="img/dormitorio.jpg" alt="Proyecto de arquitectura"><figcaption>Dormitorio minimalista</figcaption></figure>
+                    <div class="teacher-info">
+                        <p>Ambientes diseñados para transmitir tranquilidad mediante texturas suaves y colores cálidos.</p>
+                    </div>
+                </div>
+
+                <div class="teacher-card">
+                    <figure class="content-figure"><img src="img/fachada.jpg" alt="Proyecto de arquitectura"><figcaption>Fachada residencial moderna</figcaption></figure>
+                    <div class="teacher-info">
+                        <p>Arquitectura que integra materiales naturales, líneas geométricas y espacios exteriores.</p>
+                    </div>
+                </div>
+
+                <div class="teacher-card">
+                    <figure class="content-figure"><img src="img/oficina.jpg" alt="Proyecto de interiorismo"><figcaption>Oficina creativa</figcaption></figure>
+                    <div class="teacher-info">
+                        <p>Espacios de trabajo que equilibran comodidad, organización y estética profesional.</p>
+                    </div>
+                </div>
+
+                <div class="teacher-card">
+                    <figure class="content-figure"><img src="img/baño.jpg" alt="Proyecto de arquitectura"><figcaption>Baño de estilo natural</figcaption></figure>
+                    <div class="teacher-info">
+                        <p>Una combinación de piedra, madera e iluminación cálida para crear un ambiente relajante.</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- SECCIÓN DE UBICACIÓN -->
+    <section class="ubicacion" id="ubicacion">
+
+        <div class="ubicacion-texto">
+            <span>ENCUÉNTRANOS</span>
+            <h2>Visítanos en NÓRDICA Studio</h2>
+            <p>
+                Conoce nuestro espacio creativo y descubre
+                cómo transformamos ideas en espacios únicos.
+            </p>
+        </div>
+
+        <div class="mapa">
+            <iframe
+                src="https://www.google.com/maps?q=Cuernavaca%2C%20Morelos&output=embed"
+                width="100%"
+                height="350"
+                style="border:0;"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+
+    </section>
+
+    <!-- SECCIÓN DE DOS COLUMNAS CON FORMULARIO INTEGRADO -->
+    <section class="hero-section">
+        <div class="hero-container">
+            
+            <!-- Columna Izquierda: Textos y Beneficios (Estilo UMOV) -->
+            <div class="hero-text-side">
+                <span class="hero-tag">DISEÑO · ARQUITECTURA · INTERIORISMO</span>
+                <h1 class="hero-title-custom">Hablemos de tu proyecto</h1>
+                <p class="hero-desc-custom">
+                    Cuéntanos qué tienes en mente. Nuestro equipo se pondrá en contacto contigo para conocer tus ideas y necesidades.
+                </p>
+                
+                <div class="hero-subtitle-custom">
+                    ¿Qué podemos hacer por ti?
+                </div>
+                <div class="hero-benefits hero-benefits-column">
+                    <span>✓ Asesoría inicial y concepto creativo</span>
+                    <span>✓ Propuesta de diseño y materiales</span>
+                    <span>✓ Planeación y seguimiento del proyecto</span>
+                    <span>✓ Soluciones adaptadas a tu presupuesto</span>
+                </div>
+            </div>
+
+            <!-- Columna Derecha: Tarjeta Flotante con Formulario (10 campos/etiquetas) -->
+            <div class="hero-form-side">
+                <div class="cbtis-hero-form-card">
+                    
+                    <h3 class="form-card-title">
+                        Solicita una asesoría
+                    </h3>
+
+                    <form id="form-hero-informes" action="#" method="POST">
+                        
+                        <!-- 1. Campo de Texto: Nombre -->
+                        <div class="cbtis-input-group form-group-margin">
+                            <input type="text" id="info_nombre" name="nombre" required placeholder="Nombre" class="form-control-input">
+                        </div>
+
+                        <!-- 2. Campo de Texto: Apellido -->
+                        <div class="cbtis-input-group form-group-margin">
+                            <input type="text" id="info_apellido" name="apellido" required placeholder="Apellido" class="form-control-input">
+                        </div>
+
+                        <!-- 3. Campo de Correo Electrónico -->
+                        <div class="cbtis-input-group form-group-margin">
+                            <input type="email" id="info_email" name="email" required placeholder="Correo electrónico" class="form-control-input">
+                        </div>
+
+                        <!-- 4. Campo de Teléfono -->
+                        <div class="cbtis-input-group form-group-margin">
+                            <input type="tel" id="info_telefono" name="telefono" required placeholder="Teléfono o WhatsApp" class="form-control-input">
+                        </div>
+
+                        <!-- 5. Menú Desplegable (Select): Nivel de Estudios -->
+                        <div class="cbtis-input-group form-group-margin">
+                            <select id="info_nivel" name="nivel" required class="form-control-select">
+                                <option value="">Selecciona el tipo de proyecto</option>
+                                <option value="media">Proyecto residencial</option>
+                            </select>
+                        </div>
+
+                        <!-- 6. Menú Desplegable (Select): Carrera Técnica -->
+                        <div class="cbtis-input-group form-group-margin">
+                            <select id="info_carrera" name="carrera" required class="form-control-select">
+                                <option value="">Servicio de tu interés</option>
+                                <option value="recursos">Diseño de interiores</option>
+                                <option value="programacion">Arquitectura residencial</option>
+                                <option value="ciberseguridad">Diseño comercial</option>
+                                <option value="laboratorista">Remodelación y renovación</option>
+                            </select>
+                        </div>
+
+                        <!-- 7. Campo de Fecha (Date): Fecha estimada de ingreso -->
+                        <div class="cbtis-input-group form-group-margin">
+                            <label for="info_fecha" class="form-date-label">Fecha ideal para comenzar:</label>
+                            <input type="date" id="info_fecha" name="fecha" required class="form-control-date">
+                        </div>
+
+                        <!-- 8. Área de Texto (Textarea): Dudas adicionales -->
+                        <div class="cbtis-input-group form-group-margin">
+                            <textarea id="info_comentarios" name="comentarios" rows="2" placeholder="Describe brevemente tu proyecto..." class="form-control-textarea"></textarea>
+                        </div>
+
+                      <!-- 9. Casilla de Verificación (Checkbox): Términos y privacidad -->
+                        <div class="cbtis-input-group form-group-checkbox">
+                            <input type="checkbox" id="info_terminos" name="terminos" required class="form-checkbox-input">
+                            <label for="info_terminos" class="form-checkbox-label">
+                                Acepto recibir información sobre los servicios de NÓRDICA Studio.
+                            </label>
+                        </div>
+
+                        <!-- 10. Botón de Envío (Submit Button) -->
+                        <button type="submit" class="cbtis-btn-ingresar form-submit-btn">
+                            Solicitar informes
+                        </button>
+
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- SECCIÓN DE CONVENIOS DOBLE LÍNEA -->
+    <section class="convenios-section">
+        <div class="convenios-container">
+            
+            <div class="section-header">
+                <span class="teachers-tag convenience-tag-custom">¿QUIÉNES CONFÍAN EN EL NÓRDICA STUDIO?</span>
+                <h2>Diseño con propósito</h2>
+                <p>Colaboramos con especialistas y proveedores para cuidar cada detalle, desde la idea inicial hasta la entrega.</p>
+            </div>
+
+            <!-- LÍNEA 1: Se desplaza hacia la IZQUIERDA -->
+            <div class="marquee-wrapper">
+                <div class="marquee-track marquee-track-top">
+                    <div class="convenio-card">🏢 PEMEX</div>
+                    <div class="convenio-card">🚗 Grupo Carso</div>
+                    <div class="convenio-card">🏦 Citibanamex</div>
+                    <div class="convenio-card">📞 TELMEX</div>
+                    <div class="convenio-card">🏛️ Secretaría de Hacienda</div>
+                    <div class="convenio-card">📦 Mercado Libre</div>
+                    <div class="convenio-card">🌴 Grupo Xcaret</div>
+                    <div class="convenio-card">🌐 CISCO Networking</div>
+                    <!-- Duplicado para efecto infinito fluido -->
+                    <div class="convenio-card">🏢 PEMEX</div>
+                    <div class="convenio-card">🚗 Grupo Carso</div>
+                    <div class="convenio-card">🏦 Citibanamex</div>
+                    <div class="convenio-card">📞 TELMEX</div>
+                    <div class="convenio-card">🏛️ Secretaría de Hacienda</div>
+                    <div class="convenio-card">📦 Mercado Libre</div>
+                    <div class="convenio-card">🌴 Grupo Xcaret</div>
+                    <div class="convenio-card">🌐 CISCO Networking</div>
+                </div>
+            </div>
+
+            <!-- LÍNEA 2: Se desplaza hacia la DERECHA -->
+            <div class="marquee-wrapper marquee-wrapper-spacing">
+                <div class="marquee-track marquee-track-bottom">
+                    <div class="convenio-card">📰 Grupo Milenio</div>
+                    <div class="convenio-card">💊 San Pablo Farmacia</div>
+                    <div class="convenio-card">🏪 OXXO</div>
+                    <div class="convenio-card">⚡ Grupo Salinas</div>
+                    <div class="convenio-card">💻 Microsoft Partner</div>
+                    <div class="convenio-card">🎓 UNAM Vinculación</div>
+                    <div class="convenio-card">🏥 Hospital General</div>
+                    <div class="convenio-card">⚙️ Bosch México</div>
+                    <!-- Duplicado para efecto infinito fluido -->
+                    <div class="convenio-card">📰 Grupo Milenio</div>
+                    <div class="convenio-card">💊 San Pablo Farmacia</div>
+                    <div class="convenio-card">🏪 OXXO</div>
+                    <div class="convenio-card">⚡ Grupo Salinas</div>
+                    <div class="convenio-card">💻 Microsoft Partner</div>
+                    <div class="convenio-card">🎓 UNAM Vinculación</div>
+                    <div class="convenio-card">🏥 Hospital General</div>
+                    <div class="convenio-card">⚙️ Bosch México</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PIE DE PÁGINA (FOOTER CON REDES SOCIALES) -->
+    <footer class="footer">
+        <div class="footer-container">
+            
+            <div class="footer-info">
+                <p>NÓRDICA<wbr> Studio Diseño que transforma espacios &copy; 2026</p>
+                <p class="footer-author">Arquitectura · Interiorismo · Diseño</p>
+            </div>
+
+            <!-- Enlaces de Redes Sociales -->
+            <div class="footer-socials">
+                <a href="https://facebook.com" target="_blank" class="social-icon" title="Facebook">f</a>
+                <a href="https://instagram.com" target="_blank" class="social-icon" title="Instagram">ig</a>
+                <a href="https://whatsapp.com" target="_blank" class="social-icon" title="WhatsApp">💬</a>
+                <a href="https://youtube.com" target="_blank" class="social-icon" title="YouTube"> ▶</a>
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
